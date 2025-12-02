@@ -19,6 +19,8 @@
                 nixd
                 nixfmt
                 zig_0_15
+                zls_0_15
+                zig-zlint
               ];
             };
           };
