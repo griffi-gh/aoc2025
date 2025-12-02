@@ -7,6 +7,7 @@ pub fn build(b: *std.Build) !void {
     const modules = .{
         "day1",
         "day2_1",
+        "day2_2",
     };
 
     const check = b.step("check", "check all");

@@ -12,9 +12,6 @@ pub fn main() !void {
     );
     defer allocator.free(content);
 
-    // const x: u8 = 257;
-    // _ = x; // autofix
-
     var result: u64 = 0;
 
     var ranges = std.mem.splitScalar(u8, content, ',');
