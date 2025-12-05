@@ -5,7 +5,7 @@ pub fn build(b: *std.Build) !void {
     const optimize = b.standardOptimizeOption(.{});
 
     const modules = .{
-        "day1",
+        "day1_2",
         "day2_1",
         "day2_2",
         "day3_1",
