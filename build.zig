@@ -12,6 +12,8 @@ pub fn build(b: *std.Build) !void {
         "day3_2",
         "day4_1",
         "day4_2",
+        "day5_1",
+        "day5_2",
     };
 
     const check = b.step("check", "check all");
